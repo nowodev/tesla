@@ -14,13 +14,60 @@
 
     <style>
       body {
-        background: url('./assets/bg.jpg') center center;
+        background: url("./assets/bg.jpg") center center;
         background-size: cover;
       }
     </style>
     <!-- background: url('https://raw.githubusercontent.com/michdess/tailwind/master/tesla/img/bg.jpg') center center; -->
   </head>
-  <body>
-    
+  <body class="h-screen flex flex-col justify-center">
+    <nav
+      class="flex justify-between items-center text-white px-5 py-3 text-sm absolute top-0 left-0 right-0"
+    >
+      <div>
+        <img
+          class="h-4"
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTMiPjxwYXRoIGQ9Ik0wIDBjLjMgMS4xIDEuMyAyLjMgMi42IDIuNmg0LjFsLjIuMVYxM2gyLjVWMi43bC4yLS4xaDQuMWMxLjQtLjQgMi4zLTEuNSAyLjYtMi42SDB6bTc3LjggMTNjMS4zLS41IDItMS41IDIuMi0yLjZINjguN1YtLjFoLTIuNXYxM2gxMS42ek00Ny4zIDIuNmg5YzEuMy0uNCAyLjUtMS40IDIuNy0yLjZINDQuOHY3LjdoMTEuNnYyLjdoLTkuMWMtMS40LjQtMi42IDEuNC0zLjIgMi42SDU5VjUuMkg0Ny4zVjIuNnptMzguMSAyLjZWMTNIODhWNy44aDkuMVYxM2gyLjZWNS4yTTI1LjIgMi42aDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjIgMS40IDIuMyAyLjcgMi42bTAgNS4yaDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjEgMS40IDIuMyAyLjcgMi42bTAgNS4yaDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjIgMS40IDIuNCAyLjcgMi42TTg3LjcgMi42aDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42SDg1Yy4zIDEuMiAxLjMgMi40IDIuNyAyLjYiIGZpbGw9IiNGRkYiLz48L3N2Zz4="
+          alt="Logo"
+        />
+      </div>
+
+      <div class="text-base hidden md:block">
+        <a href="" class="mx-2 text-white hover:text-gray-400">Model S</a>
+        <a href="" class="mx-2 text-white hover:text-gray-400">Model 3</a>
+        <a href="" class="mx-2 text-white hover:text-gray-400">Model X</a>
+        <a href="" class="mx-2 text-white hover:text-gray-400">Model Y</a>
+        <a href="" class="mx-2 text-white hover:text-gray-400">Roadster</a>
+      </div>
+
+      <div
+        class="text-base flex items-center mx-2 text-white hover:text-gray-400"
+      >
+        <a href="" class="mx-2 text-white hover:text-gray-400">Shop</a>
+        <a href="" class="mx-2 text-white hover:text-gray-400">Sign In</a>
+        <svg
+          class="mx-2 h-4 w-4 cursor-pointer"
+          viewBox="0 0 20 20"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            id="Page-1"
+            stroke="white"
+            stroke-width="1"
+            fill="white"
+            fill-rule="evenodd"
+          >
+            <g id="icon-shape">
+              <path
+                d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z"
+                id="Combined-Shape"
+              ></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </nav>
   </body>
 </html>
